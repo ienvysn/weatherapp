@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="weather-app">
+      <div class="header">
+        <h1>Weather App</h1>
+      </div>
+
+      <div class="search-bar">
+        <input id="search-input" type="text" placeholder="Enter city name" />
+        <button id="search-button">Search</button>
+      </div>
+
+      <div id="weather-content" class="hidden">
+        <div class="weather-display">
+          <div class="city"></div>
+          <div class="temperature"></div>
+        </div>
+
+        <table class="weather-table">
+          <thead>
+            <tr>
+              <th>Detail</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Humidity</td>
+              <td class="humidity"></td>
+            </tr>
+            <tr>
+              <td>Chance of Rain</td>
+              <td class="rain"></td>
+            </tr>
+            <tr>
+              <td>Weather</td>
+              <td class="weather"></td>
+            </tr>
+            <tr>
+              <td>Highest Temp</td>
+              <td class="highest-temp"></td>
+            </tr>
+            <tr>
+              <td>Lowest Temp</td>
+              <td class="lowest-temp"></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <footer>@ienvy_sn</footer>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
